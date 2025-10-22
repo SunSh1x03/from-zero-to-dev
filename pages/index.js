@@ -1,5 +1,5 @@
 function Home() {
-  return <h1>Para construtir uma boa casa é preciso ter uma boa base.</h1>;
+  return <h1>Página em Construção.</h1>;
 }
 
 function teste() {
