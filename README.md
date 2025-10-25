@@ -33,3 +33,5 @@ Simular um ambiente de desenvolvimento profissional, entendendo não apenas *com
 - **Prettier / EditorConfig**
 - **Git / GitHub**
 - **Vercel (Deploy)**
+- **Neon (PostgreSQL)**
+
