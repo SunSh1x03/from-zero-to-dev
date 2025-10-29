@@ -39,6 +39,7 @@ Simular um ambiente de desenvolvimento profissional, entendendo não apenas **co
 - **Neon (PostgreSQL)** — Banco de dados em nuvem  
 - **pg-node-migrate** — Controle de versão do banco via *migrations*  
 
+<<<<<<< HEAD
 ---
 
 ## 🗂️ Aprendizado recente
@@ -50,3 +51,6 @@ Simular um ambiente de desenvolvimento profissional, entendendo não apenas **co
 📜 **Licença:** [MIT](./LICENSE)  
 💡 **Status:** Em desenvolvimento contínuo  
 🌐 **Deploy:** [Vercel](https://vercel.com)
+=======
+---
+>>>>>>> 2c92454 (Updated `README.md`)
