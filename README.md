@@ -35,3 +35,5 @@ Simular um ambiente de desenvolvimento profissional, entendendo não apenas *com
 - **Vercel (Deploy)**
 - **Neon (PostgreSQL)**
 
+---
+
