@@ -56,3 +56,5 @@ Simular um ambiente de desenvolvimento profissional, entendendo não apenas **co
 📜 **Licença:** [MIT](./LICENSE)  
 💡 **Status:** Em desenvolvimento contínuo  
 🌐 **Deploy:** [Vercel](https://vercel.com)
+
+---
