@@ -29,21 +29,27 @@ Simular um ambiente de desenvolvimento profissional, entendendo não apenas **co
 
 ---
 
-## 🧩 Tecnologias principais
+## 🧩 Tecnologias Principais
 
 - **Next.js / React** — Front-end moderno e performático  
 - **Node.js** — Backend com JavaScript  
+- **Tailwind CSS** — Estilização ágil e responsiva com utilitários  
 - **Prettier / EditorConfig** — Padronização e formatação de código  
 - **Git / GitHub** — Controle de versão e colaboração  
 - **Vercel** — Deploy contínuo e ambiente de produção  
 - **Neon (PostgreSQL)** — Banco de dados em nuvem  
-- **pg-node-migrate** — Controle de versão do banco via *migrations*  
+- **node-pg-migrate** — Controle de versão do banco via *migrations*  
+
 
 ---
 
 ## 🗂️ Aprendizado recente
 
-> Aprendi a criar e aplicar *migrations* com `node-pg-migrate`, permitindo **versionar o esquema do banco PostgreSQL**, **automatizar alterações estruturais** e manter um histórico consistente de evolução do banco — essencial em ambientes colaborativos e pipelines CI/CD.
+> Aprendi a criar e aplicar *migrations* com `node-pg-migrate`, o que me permitiu **versionar o esquema do banco PostgreSQL**, **automatizar mudanças estruturais** e manter um histórico consistente da evolução do banco — uma prática essencial em times colaborativos e pipelines CI/CD.  
+>
+> Também aprofundei o entendimento do **JSX em comparação ao HTML tradicional**, aprendendo a estruturar componentes React com **Tailwind CSS** e a distribuir corretamente as referências globais em arquivos como `_app.js` e `globals.css`, garantindo estilo, modularidade e performance na renderização.  
+>
+> Além disso, tive uma aula sobre **a vida e a morte do movimento Ágil**, que trouxe uma reflexão profunda sobre como os princípios originais do Ágil foram se distorcendo com o tempo — e como o verdadeiro valor hoje está em **integrar a mentalidade ágil à cultura de entrega contínua (CI/CD)**, onde automação, feedback rápido e colaboração entre times realmente fazem diferença.
 
 ---
 
