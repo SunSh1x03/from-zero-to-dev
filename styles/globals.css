@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* opcional, mas combina com teu layout */
+body {
+  @apply bg-black text-white;
+}
