@@ -43,11 +43,11 @@ export default function Home() {
 
           {/* Título com efeito neon */}
           <h1 className="text-5xl md:text-7xl font-black text-center mb-6 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(6,182,212,0.5)]">
-            🦇 Ops! Estamos Construindo! 🦇
+              Ops! Estamos Construindo! 
           </h1>
 
           <p className="text-xl md:text-2xl text-center text-gray-300 font-bold mb-12 drop-shadow-lg">
-            Nossa equipe está trabalhando nas sombras para criar algo ÉPICO! ✨
+            Nossa equipe está trabalhando para criar algo ÉPICO! 
           </p>
 
           {/* Cards coloridos estilo dark */}
@@ -73,7 +73,7 @@ export default function Home() {
                 <Coffee className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-100 mb-2">Muito Café</h3>
-              <p className="text-gray-400">Combustível essencial para vigílias! ☕</p>
+              <p className="text-gray-400">Combustível essencial para o dia a dia! ☕</p>
             </div>
           </div>
 
@@ -106,7 +106,7 @@ export default function Home() {
               Quer saber quando ficar pronto? 🎊
             </h2>
             <p className="text-gray-400 mb-6">
-              A gente te avisa na hora! Promessa de dev das sombras. 🤙
+              A gente te avisa na hora! Promessa de dev. 🤙
             </p>
             <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
               <input 
@@ -123,7 +123,7 @@ export default function Home() {
           {/* Mensagem final */}
           <div className="mt-12 text-center">
             <p className="text-2xl font-bold text-cyan-400 drop-shadow-[0_0_20px_rgba(6,182,212,0.7)] animate-pulse">
-              Voltamos logo das sombras! 🦇✨
+              Até breve! 
             </p>
           </div>
 
