@@ -1,6 +1,6 @@
 name: Automated Tests
 
-on: pull, pull_request
+on: pull_request
 
 jobs:
   jest:
@@ -11,7 +11,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "lts/hydron"
+          node-version: "lts/hydrogen"
       
       - run: npm ci
 
