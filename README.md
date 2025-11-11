@@ -12,12 +12,12 @@ O foco é **aprender desenvolvimento com mentalidade profissional**, aplicando p
 
 A estrutura do projeto reflete boas práticas de engenharia:
 
-- **Next.js + React** — criação de interfaces modernas, componentizadas e performáticas  
-- **Arquitetura organizada** — separação clara entre `infra/`, `models/`, `pages/` e `tests/`  
-- **Configuração consistente** — uso de `.nvmrc`, `.editorconfig` e `.prettierignore` para manter o padrão da equipe  
-- **Variáveis de ambiente** — `.env.development` para controlar configurações por ambiente  
-- **Testes automatizados** — início da cultura de confiabilidade e manutenção contínua  
-- **Licença MIT + Issues públicas** — mentalidade *open source* e colaboração  
+- **Next.js + React** — criação de interfaces modernas, componentizadas e performáticas
+- **Arquitetura organizada** — separação clara entre `infra/`, `models/`, `pages/` e `tests/`
+- **Configuração consistente** — uso de `.nvmrc`, `.editorconfig` e `.prettierignore` para manter o padrão da equipe
+- **Variáveis de ambiente** — `.env.development` para controlar configurações por ambiente
+- **Testes automatizados** — início da cultura de confiabilidade e manutenção contínua
+- **Licença MIT + Issues públicas** — mentalidade _open source_ e colaboração
 
 Atualmente, o projeto está **hospedado na Vercel** e em constante evolução, servindo como **vitrine de aprendizado aplicado** e base para futuras integrações com APIs e automações em nuvem.
 
@@ -31,23 +31,22 @@ Simular um ambiente de desenvolvimento profissional, entendendo não apenas **co
 
 ## 🧩 Tecnologias Principais
 
-- **Next.js / React** — Front-end moderno e performático  
-- **Node.js** — Backend com JavaScript  
-- **Tailwind CSS** — Estilização ágil e responsiva com utilitários  
-- **Prettier / EditorConfig** — Padronização e formatação de código  
-- **Git / GitHub** — Controle de versão e colaboração  
-- **Vercel** — Deploy contínuo e ambiente de produção  
-- **Neon (PostgreSQL)** — Banco de dados em nuvem  
-- **node-pg-migrate** — Controle de versão do banco via *migrations*  
-
+- **Next.js / React** — Front-end moderno e performático
+- **Node.js** — Backend com JavaScript
+- **Tailwind CSS** — Estilização ágil e responsiva com utilitários
+- **Prettier / EditorConfig** — Padronização e formatação de código
+- **Git / GitHub** — Controle de versão e colaboração
+- **Vercel** — Deploy contínuo e ambiente de produção
+- **Neon (PostgreSQL)** — Banco de dados em nuvem
+- **node-pg-migrate** — Controle de versão do banco via _migrations_
 
 ---
 
 ## 🗂️ Aprendizado recente
 
-> Aprendi a criar e aplicar *migrations* com `node-pg-migrate`, o que me permitiu **versionar o esquema do banco PostgreSQL**, **automatizar mudanças estruturais** e manter um histórico consistente da evolução do banco — uma prática essencial em times colaborativos e pipelines CI/CD.  
+> Aprendi a criar e aplicar _migrations_ com `node-pg-migrate`, o que me permitiu **versionar o esquema do banco PostgreSQL**, **automatizar mudanças estruturais** e manter um histórico consistente da evolução do banco — uma prática essencial em times colaborativos e pipelines CI/CD.
 >
-> Também aprofundei o entendimento do **JSX em comparação ao HTML tradicional**, aprendendo a estruturar componentes React com **Tailwind CSS** e a distribuir corretamente as referências globais em arquivos como `_app.js` e `globals.css`, garantindo estilo, modularidade e performance na renderização.  
+> Também aprofundei o entendimento do **JSX em comparação ao HTML tradicional**, aprendendo a estruturar componentes React com **Tailwind CSS** e a distribuir corretamente as referências globais em arquivos como `_app.js` e `globals.css`, garantindo estilo, modularidade e performance na renderização.
 >
 > Além disso, tive uma aula sobre **a vida e a morte do movimento Ágil**, que trouxe uma reflexão profunda sobre como os princípios originais do Ágil foram se distorcendo com o tempo — e como o verdadeiro valor hoje está em **integrar a mentalidade ágil à cultura de entrega contínua (CI/CD)**, onde automação, feedback rápido e colaboração entre times realmente fazem diferença.
 
@@ -58,4 +57,5 @@ Simular um ambiente de desenvolvimento profissional, entendendo não apenas **co
 🌐 **Deploy:** [Vercel](https://vercel.com)
 
 ---
+
 l
