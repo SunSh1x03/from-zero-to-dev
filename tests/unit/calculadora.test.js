@@ -1,4 +1,6 @@
-// Os testes iniciais foram desabilitados para não poluir o terminal
+/* eslint-disable jest/no-disabled-tests */
+/* eslint-disable jest/expect-expect */
+/* eslint-disable jest/no-identical-title */
 
 test.skip("nome do teste", callbackFuction);
 
