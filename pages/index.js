@@ -1,6 +1,13 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useState, useEffect } from 'react';
-import { Hammer, Sparkles, Coffee, Code2, Palette, Lightbulb } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import {
+  Hammer,
+  Sparkles,
+  Coffee,
+  Code2,
+  Palette,
+  Lightbulb,
+} from "lucide-react";
 
 export default function Home() {
   const [activeIcon, setActiveIcon] = useState(0);
