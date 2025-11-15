@@ -15,38 +15,37 @@ export default async function migrations(request, response) {
   let dbClient;
 
   try {
-   dbClient = await database.getNewClient();
-  const defaultMigrationOptions = {
-    dbClient: dbClient,
-    dryRun: false,
-    dir: join("infra", "migrations"),
-    direction: "up",
-    verbose: true,
-    migrationsTable: "pgmigrations",
-  };
+    dbClient = await database.getNewClient();
+    const defaultMigrationOptions = {
+      dbClient: dbClient,
+      dryRun: false,
+      dir: join("infra", "migrations"),
+      direction: "up",
+      verbose: true,
+      migrationsTable: "pgmigrations",
+    };
 
-  if (request.method === "GET") {
-  const pendingMigrations = await migrationRunner(defaultMigrationOptions);
-  return response.status(200).json(pendingMigrations);
-  }
-  
-  if (request.method == "POST") {
-  const migratedMigrations = await migrationRunner({
-    ...defaultMigrationOptions,
-    dryRun: false,
-  });
+    if (request.method === "GET") {
+      const pendingMigrations = await migrationRunner(defaultMigrationOptions);
+      return response.status(200).json(pendingMigrations);
+    }
 
-  if (migratedMigrations.length > 0) {
-    return response.status(201).json(migratedMigrations);
-  }
+    if (request.method == "POST") {
+      const migratedMigrations = await migrationRunner({
+        ...defaultMigrationOptions,
+        dryRun: false,
+      });
 
-  return response.status(200).json(migratedMigrations);
-  }
+      if (migratedMigrations.length > 0) {
+        return response.status(201).json(migratedMigrations);
+      }
 
-} catch (error) {
-  console.error(error)
-  throw error;
-} finally {
+      return response.status(200).json(migratedMigrations);
+    }
+  } catch (error) {
+    console.error(error);
+    throw error;
+  } finally {
     await dbClient.end();
-}
+  }
 }
