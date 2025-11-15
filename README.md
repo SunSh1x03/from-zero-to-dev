@@ -49,7 +49,8 @@ Simular um ambiente de desenvolvimento profissional, entendendo não apenas **co
 > Também aprofundei o entendimento do **JSX em comparação ao HTML tradicional**, aprendendo a estruturar componentes React com **Tailwind CSS** e a distribuir corretamente as referências globais em arquivos como `_app.js` e `globals.css`, garantindo estilo, modularidade e performance na renderização.
 >
 > Além disso, tive uma aula sobre **a vida e a morte do movimento Ágil**, que trouxe uma reflexão profunda sobre como os princípios originais do Ágil foram se distorcendo com o tempo — e como o verdadeiro valor hoje está em **integrar a mentalidade ágil à cultura de entrega contínua (CI/CD)**, onde automação, feedback rápido e colaboração entre times realmente fazem diferença.
-
+>
+>Com o lint de estilo funcionando, avancei para o lint de qualidade. A Vercel quebrou o deploy por causa de um pnpm-lock.yaml perdido, forçando um frozen-lockfile incompatível com meu uso de npm. Removi o lockfile errado, recriei o package-lock.json e padronizei tudo. Depois disso, CI e deploy voltaram a funcionar. Qualidade é alinhamento, não só código bonito.
 ---
 
 📜 **Licença:** [MIT](./LICENSE)  
