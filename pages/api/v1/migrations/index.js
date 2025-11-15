@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { up } from "infra/migrations/1761581592982_test-migration";
 import migrationRunner from "node-pg-migrate";
 import { join } from "node:path";

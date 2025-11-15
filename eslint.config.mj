@@ -1,0 +1,31 @@
+// eslint.config.mjs
+import js from '@eslint/js';
+import nextPlugin from '@next/eslint-plugin-next';
+import globals from 'globals';
+
+export default [
+  // Ignorar build/dep
+  { ignores: ['.next/**', 'node_modules/**', 'dist/**', 'coverage/**'] },
+
+  // Regras JS base
+  js.configs.recommended,
+
+  // Next.js (Core Web Vitals)
+  nextPlugin.configs['core-web-vitals'],
+
+  // TypeScript (remova este bloco se seu projeto for só JS)
+  ...tseslint.configs.recommendedTypeChecked,
+  {
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+      },
+    },
+    rules: {
+      // suas regras aqui
+      // ex: 'no-console': 'warn'
+    },
+  },
+];
+
